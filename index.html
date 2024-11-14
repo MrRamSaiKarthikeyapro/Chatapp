@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Profile Section -->
+    <div class="profile-section">
+      <img src="https://via.placeholder.com/50" alt="Profile Picture" class="profile-pic">
+      <div class="profile-info">
+        <h3 class="profile-name">John Doe</h3>
+        <p class="profile-status">Online</p>
+      </div>
+    </div>
+
+    <!-- Chat Section -->
+    <div class="chat-container">
+      <div class="chat-header">
+        <h2>Chat with Support</h2>
+      </div>
+
+      <!-- Chat Window -->
+      <div class="chat-window" id="chat-window">
+        <!-- Messages will appear here -->
+      </div>
+
+      <!-- Message Input -->
+      <div class="message-input">
+        <input type="text" id="message-input" placeholder="Type a message..." autocomplete="off">
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
